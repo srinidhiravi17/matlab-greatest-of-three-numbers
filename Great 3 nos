@@ -1,0 +1,15 @@
+
+clc;
+clear all;
+a=input('enter a:');
+b=input('enter b:');
+c=input('enter c:');
+if ((a>b)&&(a>c))
+    fprintf ('a is greater');
+else if ((b>a)&&(b>c))
+        disp('b is greater');
+    else 
+        disp('c is greater');
+        
+    end
+end
